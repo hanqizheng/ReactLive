@@ -1,0 +1,75 @@
+.list-bg {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: rgb(221, 250, 235);
+  border-radius: 20px;
+}
+
+.list-title {
+  color: rgb(60, 108, 146)
+}
+
+.table-bg {
+  width:500px;
+  margin: 0 auto;
+
+}
+
+.table-item {
+  background-color: rgb(255, 255, 255);
+  border: 1px;
+  border-radius: 5px;
+}
+
+.table-item-text {
+  float: left;
+  border: none;
+  background-color: rgb(221, 250, 235);
+}
+
+.table-item-action {
+  float: right;
+  padding-left: 7px;
+}
+
+.table-button-done {
+  width: 50px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: rgb(71, 209, 163);
+  outline: none;
+  border-style: none ;
+  transition-duration: 600ms;
+}
+
+.table-button-done:hover {
+  width: 50px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: rgb(60, 168, 132);
+  outline: none;
+  border-style: none ;
+  transition-duration: 600ms;
+}
+
+
+.table-button-edit {
+  width: 50px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: rgb(97, 212, 207);
+  outline: none;
+  border-style: none ;
+  transition-duration: 600ms;
+}
+
+.table-button-edit:hover {
+  width: 50px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: rgb(77, 167, 162);
+  outline: none;
+  border-style: none ;
+  transition-duration: 600ms;
+}

@@ -1,0 +1,41 @@
+.form-bg {
+  width: 600px;
+  height: 100px;
+  margin: 20px auto 0 auto;
+  background-color: rgb(212, 229, 252);
+  border-radius: 15px;
+}
+
+.form-input {
+  width: 400px;
+  height: 25px;
+  margin-top: 15px;
+  font-size: 17px;
+  border-radius: 6px;
+  padding-left: 7px;
+	border-style: none ;
+  outline: none;
+  box-shadow: none;
+}
+
+.form-button {
+  width: 100px;
+  height: 30px;
+  margin-top: 15px;
+  background-color: rgb(123, 182, 250);
+  border-radius: 5px;
+  outline: none;
+  border-style: none ;
+  transition-duration: 600ms;
+}
+
+.form-button:hover {
+  transition-duration: 400ms;
+  background-color: rgb(63, 150, 248);
+}
+
+.form-button:active {
+  transition-duration: 50ms;
+  width: 110px;
+  height: 35px;
+}
