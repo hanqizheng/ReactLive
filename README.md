@@ -12,8 +12,9 @@
 
 ## Menu
 
-- [Demo]()
-  - [Todo List]()
-  - [Todo List Plus]()
-  - [Comment List]()
-  - [react小书 课后题]()
+- [Demo](https://github.com/hanqizheng/ReactLive/tree/master/demo)
+  - [Todo List](https://github.com/hanqizheng/ReactLive/tree/master/demo/TodoList)
+  - [Todo List Plus](https://github.com/hanqizheng/ReactLive/tree/master/demo/TodoList%20Plus)
+  - [Comment List](https://github.com/hanqizheng/ReactLive/tree/master/demo/comment-list)
+  - [react小书 课后题](https://github.com/hanqizheng/ReactLive/tree/master/demo/React%E5%B0%8F%E4%B9%A6%E8%AF%BE%E5%90%8E)
+  - [make-redux](https://github.com/hanqizheng/ReactLive/tree/master/demo/make-redux)
