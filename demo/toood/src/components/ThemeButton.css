@@ -1,0 +1,28 @@
+.buttonBg {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: rgb(145, 240, 208);
+  margin-bottom: 10px;
+}
+
+.themeButton {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  outline: none;
+  border-style: none ;
+  background-color: rgb(145, 240, 208);
+  transition-duration: 300ms;
+}
+
+.themeButton:hover {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  outline: none;
+  border-style: none ;
+  background-color: rgb(145, 240, 208);
+  transform: scale(1.2);
+  transition-duration: 300ms;
+}

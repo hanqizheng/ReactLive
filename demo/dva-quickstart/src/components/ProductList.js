@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import PropTypes from 'prop-types';
-import { Table, Popconfirm, Button } from 'antd'
+import { Table, Popconfirm, Button } from 'antd';
 
-const ProductList = ({ onDelete, products}) => {
+const ProductList = ({ onDelete, products }) => {
   const columns = [{
     title: 'Name',
     dataIndex: 'name',
@@ -15,19 +15,18 @@ const ProductList = ({ onDelete, products}) => {
         </Popconfirm>
       );
     },
-  }]
-
+  }];
   return (
     <Table
       dataSource={products}
       columns={columns}
     />
-  )
-}
+  );
+};
 
 ProductList.propTypes = {
   onDelete: PropTypes.func.isRequired,
-  products: PropTypes.array.isRequired
-}
+  products: PropTypes.array.isRequired,
+};
 
-export default ProductList
+export default ProductList;
